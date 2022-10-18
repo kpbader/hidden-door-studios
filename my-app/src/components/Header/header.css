@@ -9,6 +9,10 @@
   padding: 10px;
 }
 
+#collasible-nav-dropdown {
+padding: 0px !important;
+}
+
 #groupName {
   background-color: black;
   text-align: center;
