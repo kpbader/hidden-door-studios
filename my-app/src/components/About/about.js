@@ -30,11 +30,9 @@ function About() {
                 <Card >
                     <Card.Body>
                         <Card.Text>
-                            The studio can be used in various ways, such as recording, mixing, podcasting, production, or songwriting. You may reserve the studio with one of our in-house engineers or with your own engineer/producer.
+                        Our attentive staff along with our incredible team of recording engineers will ensure a smooth, hassle-free session. Our studio provides both inspiration and a comfortable space for you and your collaborators to create. 
                         </Card.Text>
-                        <Card.Text>
-                            We offer hourly and daily sessions starting at $65/hr as well as long-term monthly rentals.
-                        </Card.Text>
+                        
                         <Button >Book</Button>
                     </Card.Body>
                 </Card>

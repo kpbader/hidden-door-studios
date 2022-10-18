@@ -1,0 +1,97 @@
+#gallery {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 75px;
+    background-image: linear-gradient(white, #f0c874);
+}
+
+/*   */
+
+#galleryRow1 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+#shawPIANO {
+    height: 100%;
+    width: 75%;
+    transition: transform .3s;
+    border-radius: 10px;
+}
+
+#shawPIANO:hover {
+    transform: scale(1.25);
+}
+
+#studioTWO {
+    height: 100%;
+    width: 100%;
+    transition: transform .3s;
+    border-radius: 10px;
+}
+
+#studioTWO:hover {
+    transform: scale(1.25);
+}
+
+/*   */
+
+#galleryRow2 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+#studioTHREE {
+    height: 90%;
+    width: 100%;
+    transition: transform .3s;
+    border-radius: 10px;
+}
+
+#studioTHREE:hover {
+    transform: scale(1.25);
+}
+
+#guitarPAIR {
+    height: 100%;
+    width: 75%;
+    transition: transform .3s;
+    border-radius: 10px;
+}
+
+#guitarPAIR:hover {
+    transform: scale(1.25);
+}
+
+/*    */
+
+#galleryRow3 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+#drumSET {
+    height: 90%;
+    width: 90%;
+    transition: transform .3s;
+    border-radius: 10px;
+}
+
+#drumSET:hover {
+    transform: scale(1.25);
+}
+
+#bookSHELVES {
+    height: 90%;
+    width: 90%;
+    transition: transform .3s;
+    border-radius: 10px;
+}
+
+#bookSHELVES:hover {
+    transform: scale(1.25);
+}

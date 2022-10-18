@@ -9,7 +9,7 @@
 }
 
 #about-ph-text {
-    font-size: 35px;
+    font-size: 40px;
 }
 
 #about-div-one {
@@ -44,14 +44,15 @@
 }
 
 #about-div-two .card {
-    height: 400px;
-    width: 300px;
+    height: 325px;
+    width: 275px;
     padding: 20px;
     top: 70px;
     font-size: 15px;
     background-color: #0A0600;
     color: silver;
     z-index: 99;
+    
 }
 
 #about-div-two img {
@@ -59,4 +60,7 @@
     width: 60%;
     border-radius: 10px;
     /* left: 70px; */
+    position: relative;
+    left: 60px;
 }
+
