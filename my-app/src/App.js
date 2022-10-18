@@ -8,7 +8,6 @@ import {
 
 import Home from "./components/Home/home";
 import Header from "./components/Header/header";
-import Services from "./components/Services/services";
 import Mastering from "./components/Mastering/mastering";
 import Mixing from "./components/Mixing/mixing";
 import Instrumentals from "./components/Instrumentals/instrumentals";
@@ -26,7 +25,6 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/Services" element={<Services />}></Route>
           <Route path="/Mastering" element={<Mastering />}></Route>
           <Route path="/Mixing" element={<Mixing />}></Route>
           <Route path="/Instrumentals" element={<Instrumentals />}></Route>

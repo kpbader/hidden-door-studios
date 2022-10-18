@@ -9,9 +9,13 @@
   padding: 10px;
 }
 
-#collasible-nav-dropdown {
-padding: 0px !important;
+.nav {
+  background-color: black;
+  justify-content: center;
+  padding-bottom: 20px;
 }
+
+
 
 #groupName {
   background-color: black;
@@ -22,22 +26,39 @@ padding: 0px !important;
 }
 
 #groupName a {
-  color: white;
+  color: #e9e0a9;
   text-decoration: none;
   font-size: 35px;
-  border: 2px solid white;
+  border: 2px solid #e9e0a9;
   border-radius: 5px;
   padding: 8px;
 }
 
-#tabList a {
-  padding: 50px;
-  color: white;
+.tab {
+  color: #e9e0a9 !important;
   text-decoration: none;
   font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-#tabList a:hover {
+.dropdown a{
+  color: #e9e0a9;
+  
+}
+
+.dropdown-item a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-item a:hover{
   color: rgb(112, 80, 21);
+  transition: 0.3s ease-in-out;
+}
+
+.tab:hover{
+  color: rgb(112, 80, 21) !important;
   transition: 0.3s ease-in-out;
 }
