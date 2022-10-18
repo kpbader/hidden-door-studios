@@ -1,6 +1,47 @@
 import './about.css';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import soundboardOne from "../../assets/images/sound-board-1.jpg";
+import studioOne from "../../assets/images/studio-1.jpg";
 
-function About(){
+
+function About() {
+    return (
+        <section id="about-page">
+            <div id="about-ph">
+                <h2 id="about-ph-text">About Us</h2>
+            </div>
+            <div id="about-div-one">
+                <Card >
+                    <Card.Body>
+                        <Card.Text>
+                            The studio can be used in various ways, such as recording, mixing, podcasting, production, or songwriting. You may reserve the studio with one of our in-house engineers or with your own engineer/producer.
+                        </Card.Text>
+                        <Card.Text>
+                            We offer hourly and daily sessions starting at $65/hr as well as long-term monthly rentals.
+                        </Card.Text>
+                        <Button >Book</Button>
+                    </Card.Body>
+                </Card>
+                <img src={soundboardOne} alt="Soundboard in studio" />
+            </div>
+            <div id="about-div-two">
+            <img src={studioOne} alt="Soundboard in studio" />
+                <Card >
+                    <Card.Body>
+                        <Card.Text>
+                            The studio can be used in various ways, such as recording, mixing, podcasting, production, or songwriting. You may reserve the studio with one of our in-house engineers or with your own engineer/producer.
+                        </Card.Text>
+                        <Card.Text>
+                            We offer hourly and daily sessions starting at $65/hr as well as long-term monthly rentals.
+                        </Card.Text>
+                        <Button >Book</Button>
+                    </Card.Body>
+                </Card>
+                
+            </div>
+        </section>
+    )
 
 };
 

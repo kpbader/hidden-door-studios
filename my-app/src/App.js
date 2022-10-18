@@ -12,6 +12,7 @@ import Services from "./components/Services/services";
 import Gallery from "./components/Gallery/gallery";
 import About from "./components/About/about";
 import Contact from "./components/Contact/contact";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/About" element={<About />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </>
   );
