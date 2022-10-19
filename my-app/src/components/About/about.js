@@ -12,7 +12,7 @@ function About() {
                 <h2 id="about-ph-text">About Us</h2>
             </div>
             <div id="about-div-one">
-                <Card >
+                <Card id="about-card">
                     <Card.Body>
                         <Card.Text>
                             The studio can be used in various ways, such as recording, mixing, podcasting, production, or songwriting. You may reserve the studio with one of our in-house engineers or with your own engineer/producer.
@@ -27,7 +27,7 @@ function About() {
             </div>
             <div id="about-div-two">
             <img src={studioOne} alt="Soundboard in studio" />
-                <Card >
+                <Card id="about-card-2">
                     <Card.Body>
                         <Card.Text>
                         Our attentive staff along with our incredible team of recording engineers will ensure a smooth, hassle-free session. Our studio provides both inspiration and a comfortable space for you and your collaborators to create. 

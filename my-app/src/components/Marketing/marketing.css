@@ -3,3 +3,21 @@
     width: 100%;
     /* opacity: 0.75; */
 }
+
+#marketing-cards {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-image: linear-gradient(white, #e9e0a9);
+}
+
+.marketing-card {
+    margin: 30px;
+    padding: 30px;
+    height: 400px !important;
+    width: 300px !important;
+    text-align: center;
+    --bs-card-bg:: none !important;
+    border-radius: 10px !important;
+    border: 2px solid black !important;
+}

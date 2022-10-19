@@ -19,11 +19,11 @@
     padding: 40px;
 }
 
-#about-div-one .card {
-    height: 400px;
+#about-card {
+    height: 425px !important;
     width: 300px;
     padding: 20px;
-    top: 70px;
+    top: 30px;
     left: 70px;
     font-size: 15px;
     background-color: #0A0600;
