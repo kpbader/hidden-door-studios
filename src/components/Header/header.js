@@ -8,15 +8,15 @@ function Header() {
     return (
         <section id="topBar">
             <div id="groupName">
-                <a data-testid="link" href="/">
-                    Hidden Door Studio
+                <a data-testid="link" href="/hidden-door-studios">
+                    Hidden Door Studios
                 </a>
             </div>
 
             <Nav >
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="/" className="tab">Home</Link>
+                        <Link to="/hidden-door-studios" className="tab">Home</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <NavDropdown title="Services" className="tab">

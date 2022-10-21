@@ -24,7 +24,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/hidden-door-studios" element={<Home />}></Route>
           <Route path="/Mastering" element={<Mastering />}></Route>
           <Route path="/Mixing" element={<Mixing />}></Route>
           <Route path="/Instrumentals" element={<Instrumentals />}></Route>

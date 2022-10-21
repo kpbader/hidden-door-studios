@@ -11,13 +11,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 function Home() {
 
     const serviceCards = [
         {
             name: 'Mastering',
-            img: sBooth, 
+            img: sBooth,
             link: '/Mastering'
         },
         {
@@ -51,23 +52,27 @@ function Home() {
                 </video>
             </div>
             <div id="our-services">
-                <h3>Our Services</h3>
+                <Fade bottom>
+                    <h3>Our Services</h3>
+                </Fade>
             </div>
             <div id="services-card-group">
-                <Row id="services-row">
-                    {serviceCards.map((service, i) => {
-                        return (
-                            <Col className="card-column">
-                                <Card className="service-card">
-                                    <Card.Img src={service.img} alt="Card image" id="IMG" />
-                                    <Card.ImgOverlay>
-                                        <Link className="service-card-text" to={service.link}>{service.name}</Link>
-                                    </Card.ImgOverlay>
-                                </Card>
-                            </Col>
-                        )
-                    })}
-                </Row>
+                <Fade bottom>
+                    <Row id="services-row">
+                        {serviceCards.map((service, i) => {
+                            return (
+                                <Col className="card-column">
+                                    <Card className="service-card">
+                                        <Card.Img src={service.img} alt="Card image" id="IMG" />
+                                        <Card.ImgOverlay>
+                                            <Link className="service-card-text" to={service.link}>{service.name}</Link>
+                                        </Card.ImgOverlay>
+                                    </Card>
+                                </Col>
+                            )
+                        })}
+                    </Row>
+                </Fade>
             </div>
         </section>
     );

@@ -3,10 +3,10 @@
     width: 100%;
 }
 
-.i-splash-text {
+#i-splash-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 51%;
+    left: 41%;
     transform: translate(-50%, 0%);
     color: #e9e0a9;
     font-size: 45px;
