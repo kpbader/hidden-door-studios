@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "homepage": "http://kpbader.github.io/hidden-door-studios",
+  "name": "hidden-door-studios",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,7 @@
     "react-icons": "^4.6.0",
     "react-lazy-load": "^4.0.1",
     "react-responsive": "^9.0.0",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -43,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
