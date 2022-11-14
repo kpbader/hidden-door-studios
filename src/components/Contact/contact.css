@@ -10,7 +10,7 @@
 #contact-container {
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(#201001, #f0c874);
+    background-image: linear-gradient(black, #f0c874);
 }
 
 #contact-info {

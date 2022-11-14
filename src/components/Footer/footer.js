@@ -3,9 +3,12 @@ import './footer.css';
 function Footer() {
     return (
         <section id="footer">
-            <div id="footerSN">
-                <h3>Hidden Door Studio</h3>
-                <p>1234 Melrose Ave. West Hollywood, CA 90045</p>
+            <div id="footerAddress">
+                <h3>Hidden Door Studios</h3>
+                <p>7561 Melrose Ave. West Hollywood, CA 90046</p>
+            </div>
+            <div id="footer-contact-btn">
+                {/* <button></button> */}
             </div>
         </section>
     )
