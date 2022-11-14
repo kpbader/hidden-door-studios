@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hidden-door-studios/static/css/main.88a63204.css",
-    "main.js": "/hidden-door-studios/static/js/main.1c24bc7b.js",
+    "main.css": "/hidden-door-studios/static/css/main.b6a29aae.css",
+    "main.js": "/hidden-door-studios/static/js/main.280ca7d1.js",
     "static/js/787.b59189b1.chunk.js": "/hidden-door-studios/static/js/787.b59189b1.chunk.js",
     "static/media/string-lights-overlay.png": "/hidden-door-studios/static/media/string-lights-overlay.47ca6cf3a3b7cb78f993.png",
     "static/media/joshua-tree-1.jpg": "/hidden-door-studios/static/media/joshua-tree-1.35da994d73ab5cdd3a19.jpg",
@@ -24,12 +24,12 @@
     "static/media/shaw-piano.jpg": "/hidden-door-studios/static/media/shaw-piano.d44858b7b04eb03b7afe.jpg",
     "static/media/podcast-vert.jpg": "/hidden-door-studios/static/media/podcast-vert.2d24d8e3627effa6c3ee.jpg",
     "index.html": "/hidden-door-studios/index.html",
-    "main.88a63204.css.map": "/hidden-door-studios/static/css/main.88a63204.css.map",
-    "main.1c24bc7b.js.map": "/hidden-door-studios/static/js/main.1c24bc7b.js.map",
+    "main.b6a29aae.css.map": "/hidden-door-studios/static/css/main.b6a29aae.css.map",
+    "main.280ca7d1.js.map": "/hidden-door-studios/static/js/main.280ca7d1.js.map",
     "787.b59189b1.chunk.js.map": "/hidden-door-studios/static/js/787.b59189b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88a63204.css",
-    "static/js/main.1c24bc7b.js"
+    "static/css/main.b6a29aae.css",
+    "static/js/main.280ca7d1.js"
   ]
 }
