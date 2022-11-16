@@ -1,11 +1,10 @@
 import './contact.css';
-import jT from '../../assets/images/joshua-tree-1.jpg';
 import { useState, useRef } from 'react';
 // import mailOutline from "../../assets/icons/mail-outline.svg";
 // import locationPin from "../../assets/icons/location-outline.svg";
 // import phoneIcon from "../../assets/icons/call-outline.svg";
-import { BsEnvelope, BsTelephone } from 'react-icons/bs';
-import { SlLocationPin } from "react-icons/sl";
+// import { BsEnvelope, BsTelephone } from 'react-icons/bs';
+// import { SlLocationPin } from "react-icons/sl";
 import Fade from 'react-reveal/Fade';
 
 
@@ -19,12 +18,6 @@ function Contact() {
     return (
         <>
             <section id="contact-section">
-                <div id="contact-splash">
-                    <Fade bottom>
-                        <div id="contact-splash-text">Contact</div>
-                    </Fade>
-                    <img src={jT} alt="joshua tree" id="sliderIMG" />
-                </div>
                 <div id="contact-container">
                     <Fade left>
                         <form id="contact-form">

@@ -1,16 +1,19 @@
-#contact-splash-text {
+/* #contact-splash-text {
     position: absolute;
     top: 50%;
     left: 45%;
     transform: translate(-50%, 0%);
     color: #e9e0a9;
     font-size: 45px;
-}
+} */
 
 #contact-container {
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(black, #f0c874);
+    background-image: url('../../assets/images/joshua-tree-1.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 
 #contact-info {
@@ -43,6 +46,7 @@
     border: 1px solid white;
     border-radius: 10px;
     padding: 30px;
+    backdrop-filter: blur(10px);
 }
 
 #contact-form h2 {
