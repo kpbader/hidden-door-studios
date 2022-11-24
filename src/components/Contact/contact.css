@@ -10,10 +10,11 @@
 #contact-container {
     display: flex;
     justify-content: space-evenly;
-    background-image: url('../../assets/images/joshua-tree-1.jpg');
-    background-position: center bottom;
+    background-image: url('../../assets/images/skye-studios-NDLLFxTELrU-unsplash.jpg');
+    background-position: center left;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+    align-items: center;
 }
 
 #contact-info {
@@ -51,6 +52,7 @@
 
 #contact-form h2 {
     color: white;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 

@@ -1,97 +1,134 @@
-#gallery {
+#gallery-page {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 75px;
-    background-image: linear-gradient(white, #e9e0a9);
+    padding: 50px;
+    /* background-image: linear-gradient(black, #e9e0a9); */
+    background-image: url('../../assets/images/equipment-dark75-overlay.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding-bottom: 0px;
+    /* background-image: url('../../assets/images/book-shelves-overlay50.jpg');
+    background-size: contain; */
 }
 
-/*   */
+#gallery-page h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    border: 2px solid #e9e0a9;
+    color: #e9e0a9;
+    border-radius: 10px;
+    padding: 5px 25px;
 
-#galleryRow1 {
+}
+
+#gallery {
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-#shawPIANO {
-    height: 100%;
-    width: 75%;
+#pinkROOM {
+    width: 40%;
+    height: 40%;
     transition: transform .3s;
     border-radius: 10px;
+    position: relative;
+    top: 40px;
+    left: 20px;
 }
 
-#shawPIANO:hover {
-    transform: scale(1.25);
+#pinkROOM:hover {
+    transform: scale(1.1);
+    z-index: 99;
 }
 
 #studioTWO {
-    height: 100%;
-    width: 100%;
     transition: transform .3s;
     border-radius: 10px;
+    position: relative;
+    top: 40px;
+    right: 20px;
 }
 
 #studioTWO:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
+    z-index: 99;
 }
 
 /*   */
 
-#galleryRow2 {
+/* #galleryRow2 {
     display: flex;
     flex-direction: row;
-    padding: 30px;
-}
+    padding: 25px;
+    align-items: center;
+} */
 
 #studioTHREE {
-    height: 90%;
-    width: 100%;
     transition: transform .3s;
     border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
 }
 
 #studioTHREE:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
+    z-index: 99;
 }
 
 #guitarPAIR {
-    height: 100%;
-    width: 75%;
+    height: 40%;
+    width: 40%;
     transition: transform .3s;
     border-radius: 10px;
+    position: relative;
+    bottom: 100px;
+    right: 20px;
 }
 
 #guitarPAIR:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
+    z-index: 99;
 }
 
 /*    */
 
-#galleryRow3 {
+/* #galleryRow3 {
     display: flex;
     flex-direction: row;
-    padding: 30px;
-}
+    align-items: center;
+    padding: 25px;
+} */
 
-#drumSET {
-    height: 90%;
-    width: 90%;
+#mic{
+    height: 40%;
+    width: 40%;
     transition: transform .3s;
     border-radius: 10px;
+    position: relative;
+    bottom: 250px;
+    left: 20px;
 }
 
-#drumSET:hover {
-    transform: scale(1.25);
+#mic:hover {
+    transform: scale(1.1);
+    z-index: 99;
 }
 
-#bookSHELVES {
-    height: 90%;
-    width: 90%;
+#keys {
     transition: transform .3s;
     border-radius: 10px;
+    position: relative;
+    bottom: 250px;
+    right: 20px;
 }
 
-#bookSHELVES:hover {
-    transform: scale(1.25);
+#keys:hover {
+    transform: scale(1.1);
 }

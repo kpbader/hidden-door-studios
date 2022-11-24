@@ -1,28 +1,3 @@
 * {
   font-family: 'Lato';
 }
-
-
-/* Extra small devices */
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-
-  /* NAV */
-
-  #topBar header {
-    font-size: 20px !important;
-  }
-
-  #main-nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    display: none !important;
-  }
-
-  #hamburger-btn {
-   display: contents !important;
-   font-size: 40px !important;
-   color: #e9e0a9 !important;
-  }
-
-
-}

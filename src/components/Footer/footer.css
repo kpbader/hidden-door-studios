@@ -5,6 +5,7 @@
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
+    border-top: 1px solid #e9e0a9;
 }
 
 #footerAddress { 

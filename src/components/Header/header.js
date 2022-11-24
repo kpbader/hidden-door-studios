@@ -17,16 +17,15 @@ function Header() {
     return (
         <section id="topBar">
             <header>
-                Hidden Door Studios
+                The Hidden Door Studio
             </header>
 
             <Nav id="main-nav-links">
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/hidden-door-studios" className="tab">Home</Link>
-                    </Nav.Link>
-                </Nav.Item>
-                <NavDropdown title="Services" className="tab">
+
+                <Nav.Link>
+                    <Link to="/hidden-door-studios" className="tab">Home</Link>
+                </Nav.Link>
+                {/* <NavDropdown title="Services" className="tab">
                     <NavDropdown.Item>
                         <Link to="/Mastering">Mastering</Link>
                     </NavDropdown.Item>
@@ -42,21 +41,19 @@ function Header() {
                     <NavDropdown.Item>
                         <Link to="/Marketing">Marketing</Link>
                     </NavDropdown.Item>
-                </NavDropdown>
-
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/About" className="tab">About</Link>
-                    </Nav.Link>
-                </Nav.Item>
+                </NavDropdown> */}
+                <Nav.Link>
+                    <Link to="/About" className="tab">About</Link>
+                </Nav.Link>
                 <Nav.Link>
                     <Link to="/Gallery" className="tab">Gallery</Link>
                 </Nav.Link>
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/Contact" className="tab">Contact</Link>
-                    </Nav.Link>
-                </Nav.Item>
+                <Nav.Link>
+                    <Link to="/Contact" className="tab">Contact</Link>
+                </Nav.Link>
+                <Link to="/Book" className="tab">
+                    <Button id="nav-book-btn">Book</Button>
+                </Link>
             </Nav>
 
 
@@ -72,7 +69,7 @@ function Header() {
                         <ul className="tabpanel">
 
                             <Link to="/hidden-door-studios" className="hamburger-tab ">Home</Link>
-                            <NavDropdown title="Services" className="hamburger-tab ">
+                            {/* <NavDropdown title="Services" className="hamburger-tab ">
                                 <NavDropdown.Item>
                                     <Link to="/Mastering">Mastering</Link>
                                 </NavDropdown.Item>
@@ -88,11 +85,13 @@ function Header() {
                                 <NavDropdown.Item>
                                     <Link to="/Marketing">Marketing</Link>
                                 </NavDropdown.Item>
-                            </NavDropdown>
+                            </NavDropdown> */}
                             <Link to="/About" className="hamburger-tab ">About</Link>
                             <Link to="/Gallery" className="hamburger-tab ">Gallery</Link>
                             <Link to="/Contact" className="hamburger-tab ">Contact</Link>
-
+                            <Link to="/Contact" className="tab">
+                                <Button>Book</Button>
+                            </Link>
 
                         </ul>
                     </section>

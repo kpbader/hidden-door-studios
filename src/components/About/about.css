@@ -1,15 +1,22 @@
-#about-page {
-    background-image: linear-gradient(white, #f0c874);
-
+#about-the-studio {
+    background-image: url('../../assets/images/jose-pinto-dark50.jpg');
+    background-size: cover;
+    background-position: bottom;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-#about-ph{
+
+#about-page h2{
     text-align: center;
-    padding: 100px;
-}
-
-#about-ph-text {
-    font-size: 44px;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid #e9e0a9;
+    color: #e9e0a9;
+    border-radius: 10px;
+    padding: 5px 25px;
 }
 
 #about-div-one {
@@ -25,9 +32,10 @@
     width: 25% !important;
     position: relative;
     top: 50px;
-    left: 70px;
-    font-size: 15px;
-    color: white;
+    left: 50px;
+    font-size: 20px;
+    color: #e9e0a9;
+    border: 2px solid #e9e0a9;
     z-index: 999;
     border-radius: 10px;
 }
@@ -45,8 +53,8 @@
 }
 
 #about-div-one img{
-    height: 60%;
-    width: 60%;
+    height: 600px; 
+    width: 800px;
     right: 50px;
     border-radius: 10px;
 }
@@ -60,23 +68,97 @@
 }
 
 #about-card-2 {
-    height: 375px;
+    height: 500px;
     width: 325px;
     padding: 40px;
-    top: 70px;
-    font-size: 15px;
+    top: 50px;
+    right: 20px;
+    font-size: 20px;
     background-color: #0A0600;
-    color: white;
+    color: #e9e0a9;
+    border: 2px solid #e9e0a9;
     z-index: 99;
     
 }
 
 #about-div-two img {
-    height: 60%;
-    width: 60%;
+    height: 600px; 
+    width: 800px;
     border-radius: 10px;
     /* left: 70px; */
-    position: relative;
-    left: 60px
+}
+
+#about-services {
+    background-color: #e9e0a9;
+    padding: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-services h2 {
+    color: black;
+    border: 2px solid black;
+    margin-top: 50px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#about-services-cards {
+    display: flex;
+    justify-content: center;
+}
+
+#about-services-cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px; 
+    height: 200px;
+    margin: 0px 50px 50px 50px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.about-service-icon {
+    font-size: 50px;
+}
+
+#about-services-cards .card-title  {
+    font-size: 27px;
+    padding: 25px;
+    margin-bottom: 0px;
+}
+
+#about-bottom-contact {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('../../assets/images/skye-studios-NDLLFxTELrU-unsplash.jpg');
+    background-position: center left;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    align-items: center;
+}
+
+#about-contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+}
+
+#about-contact-form h2 {
+    color: white;
+    font-size: 40px;
+    padding: 0px 0px 50px 0px ;
+    border: none;
+    margin: 0px;
 }
 
