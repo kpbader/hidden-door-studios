@@ -61,7 +61,7 @@
 }
 
 .service-card-text {
-    font-size: 30px !important;
+    font-size: 30px;
     text-decoration: none;
     color: #ffff;
 }
@@ -143,9 +143,32 @@
 /* Portrait tablets and large phones, 600px + */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 
+    #home-splash-text {
+        display: none;
+    }
+
+    #our-services h3 {
+        font-size: 30px;
+    }
+
+    .service-card-text {
+        font-size: 12px !important;
+    }
+
+    #home-bottom-contact {
+        flex-direction: column;
+    }
 }
 
 /* Landscape tablets, 768px + */
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   
+    .service-card-text {
+        font-size: 13px !important;
+    }
+
+    #home-bottom-contact {
+        flex-direction: column;
+    }
+
 }

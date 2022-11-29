@@ -219,8 +219,150 @@
 
 /* Portrait tablets and large phones, 600px + */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+  #gallery-page {
+    padding: 0px;
+    
+}
+#gallery {
+flex-direction: column;
+}
+
+#pinkROOM {
+width: 70%;
+height: 70%;
+top: 0px;
+left: 0px;
+}
+
+#studioTWO {
+padding-top: 50px;
+width: 70%;
+height: 70%;
+top: 0px;
+right: 0px;
+}
+
+#studioTHREE {
+padding-top: 50px;
+left: 0px;
+bottom: 0px;
+width: 70%;
+height: 70%;
+}
+
+#guitarPAIR {
+padding-top: 50px;
+bottom: 0px;
+right: 0px;
+width: 70%;
+height: 70%;
+}
+
+#mic {
+padding-top: 50px;
+bottom: 0px;
+left: 0px;
+width: 70%;
+height: 70%;
+}
+
+#keys {
+padding-top: 50px;
+bottom: 0px;
+right: 0px;
+width: 70%;
+height: 70%;
+}
+
+#speaker1{
+padding-top: 50px;
+width: 70%;
+height: 70%;
+bottom: 0px;
+left: 0px;
+}
+
+#equip1 {
+padding-top: 50px;
+padding-bottom: 50px;
+width: 70%;
+height: 70%;
+bottom: 0px;
+right: 0px;
+}
 }
 
 /* Landscape tablets, 768px + */
-@media only screen and (min-width: 768px) and (max-width: 979px) {
+@media only screen and (min-width: 769px) and (max-width: 979px) {
+  #gallery-page {
+    padding: 0px;
+    
+}
+#gallery {
+flex-direction: column;
+}
+
+#pinkROOM {
+width: 70%;
+height: 70%;
+top: 0px;
+left: 0px;
+}
+
+#studioTWO {
+padding-top: 50px;
+width: 70%;
+height: 70%;
+top: 0px;
+right: 0px;
+}
+
+#studioTHREE {
+padding-top: 50px;
+left: 0px;
+bottom: 0px;
+width: 70%;
+height: 70%;
+}
+
+#guitarPAIR {
+padding-top: 50px;
+bottom: 0px;
+right: 0px;
+width: 70%;
+height: 70%;
+}
+
+#mic {
+padding-top: 50px;
+bottom: 0px;
+left: 0px;
+width: 70%;
+height: 70%;
+}
+
+#keys {
+padding-top: 50px;
+bottom: 0px;
+right: 0px;
+width: 70%;
+height: 70%;
+}
+
+#speaker1{
+padding-top: 50px;
+width: 70%;
+height: 70%;
+bottom: 0px;
+left: 0px;
+}
+
+#equip1 {
+padding-top: 50px;
+padding-bottom: 50px;
+width: 70%;
+height: 70%;
+bottom: 0px;
+right: 0px;
+}
 }

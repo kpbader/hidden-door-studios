@@ -145,10 +145,15 @@
 
 /* Portrait tablets and large phones, 600px + */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+    #contact-container {
+        flex-direction: column;
+    }
 
 }
 
 /* Landscape tablets, 768px + */
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  
+@media only screen and (min-width: 769px) and (max-width: 979px) {
+    #contact-container {
+        flex-direction: column;
+    }
 }

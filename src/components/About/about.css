@@ -214,9 +214,139 @@
 /* Portrait tablets and large phones, 600px + */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 
+    #about-the-studio h2 {
+        font-size: 30px;
+    }
+
+    #about-div-one img {
+        width: 75%;
+        height: 75%;
+        position: relative;
+        right: 40px;
+    }
+
+    #about-div-one #about-card{
+        font-size: 12px;
+        width: 300px;
+        position: relative;
+        top: 10px;
+        left: 40px;
+    }
+
+    #about-div-two img {
+        width: 75%;
+        height: 75%;
+        position: relative;
+        left: 40px;
+    }
+
+   #about-div-two #about-card-2 {
+        font-size: 12px;
+        height: 400px;
+        width: 300px;
+        position: relative;
+        right: 75px;
+        bottom: 10px;
+        padding-left: 75px;
+        margin: 0px; 
+    }
+
+    #about-services h2 {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    /* #about-services-cards {
+        width: 100%;
+    } */
+
+    #about-services-cards .card {
+        margin: 10px;
+        width: 14%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #about-services-cards .card-title {
+        font-size: 18px;
+    }
+
+    .about-service-icon {
+        font-size: 40px;
+    }
+
+    #about-bottom-contact {
+        flex-direction: column;
+    }
+
 }
 
 /* Landscape tablets, 768px + */
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  
+@media only screen and (min-width: 769px) and (max-width: 979px) {
+    #about-the-studio h2 {
+        font-size: 30px;
+    }
+
+    #about-div-one img {
+        width: 75%;
+        height: 75%;
+        position: relative;
+        right: 40px;
+    }
+
+    #about-div-one #about-card{
+        font-size: 12px;
+        width: 300px;
+        position: relative;
+        top: 10px;
+        left: 40px;
+    }
+
+    #about-div-two img {
+        width: 75%;
+        height: 75%;
+        position: relative;
+        left: 40px;
+    }
+
+   #about-div-two #about-card-2 {
+        font-size: 12px;
+        height: 400px;
+        width: 300px;
+        position: relative;
+        right: 75px;
+        bottom: 10px;
+        padding-left: 75px;
+        margin: 0px; 
+    }
+
+    #about-services h2 {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    /* #about-services-cards {
+        width: 100%;
+    } */
+
+    #about-services-cards .card {
+        margin: 10px;
+        width: 14%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #about-services-cards .card-title {
+        font-size: 18px;
+    }
+
+    .about-service-icon {
+        font-size: 40px;
+    }
+
+    #about-bottom-contact {
+        flex-direction: column;
+    }
 }

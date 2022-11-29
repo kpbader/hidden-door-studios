@@ -230,6 +230,9 @@ element.style {
 /* Portrait tablets and large phones, 600px + */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 
+  #topBar {
+    overflow: hidden;
+  }
 
   #topBar img {
     width: 25%;
@@ -256,10 +259,6 @@ element.style {
 
 /* Landscape tablets, 768px + */
 @media only screen and (min-width: 769px) and (max-width: 979px) {
-
-  #topBar {
-    overflow: hidden;
-  }
 
   #topBar img {
     width: 25%;
