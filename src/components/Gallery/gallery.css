@@ -1,134 +1,226 @@
 #gallery-page {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    /* background-image: linear-gradient(black, #e9e0a9); */
-    background-image: url('../../assets/images/equipment-dark75-overlay.jpg');
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    padding-bottom: 0px;
-    /* background-image: url('../../assets/images/book-shelves-overlay50.jpg');
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  /* background-image: linear-gradient(black, #e9e0a9); */
+  background-image: url("../../assets/images/equipment-dark75-overlay.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  padding-bottom: 0px;
+  /* background-image: url('../../assets/images/book-shelves-overlay50.jpg');
     background-size: contain; */
 }
 
 #gallery-page h1 {
-    text-align: center;
-    font-size: 40px;
-    margin-top: 50px;
-    margin-bottom: 75px;
-    border: 2px solid #e9e0a9;
-    color: #e9e0a9;
-    border-radius: 10px;
-    padding: 5px 25px;
-
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  border: 2px solid #e9e0a9;
+  color: #e9e0a9;
+  border-radius: 10px;
+  padding: 5px 25px;
 }
 
 #gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 #pinkROOM {
-    width: 40%;
-    height: 40%;
-    transition: transform .3s;
-    border-radius: 10px;
-    position: relative;
-    top: 40px;
-    left: 20px;
+  width: 40%;
+  height: 40%;
+  transition: transform 0.3s;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+  left: 20px;
 }
 
 #pinkROOM:hover {
-    transform: scale(1.1);
-    z-index: 99;
+  transform: scale(1.1);
+  z-index: 99;
 }
 
 #studioTWO {
-    transition: transform .3s;
-    border-radius: 10px;
-    position: relative;
-    top: 40px;
-    right: 20px;
+  transition: transform 0.3s;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+  right: 20px;
 }
 
 #studioTWO:hover {
-    transform: scale(1.1);
-    z-index: 99;
+  transform: scale(1.1);
+  z-index: 99;
 }
 
-/*   */
-
-/* #galleryRow2 {
-    display: flex;
-    flex-direction: row;
-    padding: 25px;
-    align-items: center;
-} */
-
 #studioTHREE {
-    transition: transform .3s;
-    border-radius: 10px;
-    position: relative;
-    bottom: 100px;
-    left: 20px;
+  transition: transform 0.3s;
+  border-radius: 10px;
+  position: relative;
+  bottom: 100px;
+  left: 20px;
 }
 
 #studioTHREE:hover {
-    transform: scale(1.1);
-    z-index: 99;
+  transform: scale(1.1);
+  z-index: 99;
 }
 
 #guitarPAIR {
-    height: 40%;
-    width: 40%;
-    transition: transform .3s;
-    border-radius: 10px;
-    position: relative;
-    bottom: 100px;
-    right: 20px;
+  height: 40%;
+  width: 40%;
+  transition: transform 0.3s;
+  border-radius: 10px;
+  position: relative;
+  bottom: 100px;
+  right: 20px;
 }
 
 #guitarPAIR:hover {
-    transform: scale(1.1);
-    z-index: 99;
+  transform: scale(1.1);
+  z-index: 99;
 }
 
-/*    */
-
-/* #galleryRow3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 25px;
-} */
-
-#mic{
-    height: 40%;
-    width: 40%;
-    transition: transform .3s;
-    border-radius: 10px;
-    position: relative;
-    bottom: 250px;
-    left: 20px;
+#mic {
+  height: 40%;
+  width: 40%;
+  transition: transform 0.3s;
+  border-radius: 10px;
+  position: relative;
+  bottom: 250px;
+  left: 20px;
 }
 
 #mic:hover {
-    transform: scale(1.1);
-    z-index: 99;
+  transform: scale(1.1);
+  z-index: 99;
 }
 
 #keys {
-    transition: transform .3s;
-    border-radius: 10px;
-    position: relative;
-    bottom: 250px;
-    right: 20px;
+  transition: transform 0.3s;
+  border-radius: 10px;
+  position: relative;
+  bottom: 250px;
+  right: 20px;
 }
 
 #keys:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 99;
+}
+
+#speaker1 {
+  transition: transform 0.3s;
+  border-radius: 10px;
+  position: relative;
+  bottom: 250px;
+  left: 20px;
+}
+
+#speaker1:hover {
+  transform: scale(1.1);
+  z-index: 99;
+}
+
+#equip1 {
+  transition: transform 0.3s;
+  border-radius: 10px;
+  position: relative;
+  bottom: 450px;
+  right: 50px;
+}
+
+#equip1:hover {
+  transform: scale(1.1);
+  z-index: 99;
+}
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    #gallery-page {
+        padding: 0px;
+        
+    }
+  #gallery {
+    flex-direction: column;
+  }
+
+  #pinkROOM {
+    width: 70%;
+    height: 70%;
+    top: 0px;
+    left: 0px;
+  }
+
+  #studioTWO {
+    padding-top: 50px;
+    width: 70%;
+    height: 70%;
+    top: 0px;
+    right: 0px;
+  }
+
+  #studioTHREE {
+    padding-top: 50px;
+    left: 0px;
+    bottom: 0px;
+    width: 70%;
+    height: 70%;
+  }
+
+  #guitarPAIR {
+    padding-top: 50px;
+    bottom: 0px;
+    right: 0px;
+    width: 70%;
+    height: 70%;
+  }
+
+  #mic {
+    padding-top: 50px;
+    bottom: 0px;
+    left: 0px;
+    width: 70%;
+    height: 70%;
+  }
+
+  #keys {
+    padding-top: 50px;
+    bottom: 0px;
+    right: 0px;
+    width: 70%;
+    height: 70%;
+  }
+
+  #speaker1{
+    padding-top: 50px;
+    width: 70%;
+    height: 70%;
+    bottom: 0px;
+  left: 0px;
+  }
+
+  #equip1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 70%;
+    height: 70%;
+    bottom: 0px;
+  right: 0px;
+  }
+}
+
+/* Portrait tablets and large phones, 600px + */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+}
+
+/* Landscape tablets, 768px + */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
 }

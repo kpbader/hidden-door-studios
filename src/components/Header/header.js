@@ -1,10 +1,11 @@
 import './header.css';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import hdsLOGO from '../../assets/images/hds-logo.png';
 
 function Header() {
 
@@ -16,10 +17,7 @@ function Header() {
 
     return (
         <section id="topBar">
-            <header>
-                The Hidden Door Studio
-            </header>
-
+            <img src={hdsLOGO} alt="logo" />
             <Nav id="main-nav-links">
 
                 <Nav.Link>

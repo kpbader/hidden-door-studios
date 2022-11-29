@@ -1,13 +1,13 @@
 import './gallery.css';
 import keys from '../../assets/images/IMG_2907.jpeg';
 import micOne from '../../assets/images/IMG_2381.jpeg';
-// import equip1 from '../../assets/images/equipment-1.jpg';
+import speaker from '../../assets/images/IMG_2897.jpeg';
 import guitarPair from '../../assets/images/IMG_2380.jpeg';
 import pinkRoom from '../../assets/images/IMG_2378.jpeg';
-// import '../../assets/images/sound-booth.jpg'
+import equip1 from '../../assets/images/IMG_2894.jpeg';
 import studio2 from '../../assets/images/IMG_2909.jpeg';
 import studio3 from '../../assets/images/IMG_3018.jpeg';
-import LazyLoad from 'react-lazy-load';
+// import LazyLoad from 'react-lazy-load';
 import Fade from 'react-reveal/Fade';
 
 function Gallery() {
@@ -24,28 +24,10 @@ function Gallery() {
                     <img src={guitarPair} alt="Studio" id="guitarPAIR" />
                     <img src={micOne} alt="Studio" id="mic" />
                     <img src={keys} alt="Piano" id="keys" />
+                    <img src={speaker} alt="Speaker" id="speaker1" />
+                    <img src={equip1} alt="Equip" id="equip1" />
                 </div>
             </Fade>
-            {/* <Fade bottom>
-                <div id="galleryRow2">
-                    <LazyLoad>
-                        <img src={studio3} alt="Studio" id="studioTHREE" />
-                    </LazyLoad>
-                    <LazyLoad>
-                        <img src={guitarPair} alt="Studio" id="guitarPAIR" />
-                    </LazyLoad>
-                </div>
-            </Fade>
-            <Fade bottom>
-                <div id="galleryRow3">
-                    <LazyLoad>
-                        <img src={micOne} alt="Studio" id="mic" />
-                    </LazyLoad>
-                    <LazyLoad>
-                        <img src={keys} alt="Piano" id="keys" />
-                    </LazyLoad>
-                </div>
-            </Fade> */}
         </section>
     )
 };

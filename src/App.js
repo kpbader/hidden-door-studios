@@ -17,6 +17,7 @@ import Gallery from "./components/Gallery/gallery";
 import About from "./components/About/about";
 import Contact from "./components/Contact/contact";
 import Book from "./components/Book/book";
+import Checkout from "./components/CheckOut/checkout";
 import Footer from "./components/Footer/footer";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/About" element={<About />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/Book" element={<Book />}></Route>
+          <Route path="/Checkout" element={<Checkout />}></Route>
         </Routes>
         <Footer />
       </Router>
