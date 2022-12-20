@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hidden-door-studios/precache-manifest.0d047fe8ad19f126dc091347cf126fd0.js"
+  "/hidden-door-studios/precache-manifest.3a7c494f814f9ba6aa7aef0084f9c640.js"
 );
 
 workbox.clientsClaim();
