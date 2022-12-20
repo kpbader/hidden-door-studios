@@ -2,6 +2,7 @@ import './footer.css';
 import hdsFooterLogo from '../../assets/images/hds-logo.png';
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
+import React from 'react';
 
 function Footer() {
 

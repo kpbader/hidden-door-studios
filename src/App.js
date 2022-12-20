@@ -8,17 +8,12 @@ import {
 
 import Home from "./components/Home/home";
 import Header from "./components/Header/header";
-// import Mastering from "./components/Mastering/mastering";
-// import Mixing from "./components/Mixing/mixing";
-// import Instrumentals from "./components/Instrumentals/instrumentals";
-// import Podcasting from "./components/Podcasting/podcasting";
-// import Marketing from "./components/Marketing/marketing";
 import Gallery from "./components/Gallery/gallery";
 import About from "./components/About/about";
 import Contact from "./components/Contact/contact";
 import Book from "./components/Book/book";
-import Checkout from "./components/CheckOut/checkout";
 import Footer from "./components/Footer/footer";
+import React from 'react';
 
 function App() {
   return (
@@ -27,16 +22,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/hidden-door-studios" element={<Home />}></Route>
-          {/* <Route path="/Mastering" element={<Mastering />}></Route>
-          <Route path="/Mixing" element={<Mixing />}></Route>
-          <Route path="/Instrumentals" element={<Instrumentals />}></Route>
-          <Route path="/Podcasting" element={<Podcasting />}></Route>
-          <Route path="/Marketing" element={<Marketing />}></Route> */}
           <Route path="/Gallery" element={<Gallery />}></Route>
           <Route path="/About" element={<About />}></Route>
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/Book" element={<Book />}></Route>
-          <Route path="/Checkout" element={<Checkout />}></Route>
         </Routes>
         <Footer />
       </Router>

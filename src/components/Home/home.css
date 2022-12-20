@@ -86,25 +86,6 @@
     align-items: center;
 }
 
-#hp-contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 60px;
-    margin-bottom: 50px;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 30px;
-    backdrop-filter: blur(10px);
-}
-
-#hp-contact-form h2 {
-    color: white;
-    font-size: 35px;
-    padding-bottom: 25px;
-}
-
 /* Extra small devices */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
 

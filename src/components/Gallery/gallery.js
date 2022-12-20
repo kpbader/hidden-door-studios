@@ -1,4 +1,5 @@
 import './gallery.css';
+import React from 'react';
 import keys from '../../assets/images/IMG_2907.jpeg';
 import micOne from '../../assets/images/IMG_2381.jpeg';
 import speaker from '../../assets/images/IMG_2897.jpeg';
