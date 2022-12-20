@@ -71,6 +71,19 @@
     border-radius: 5px;
 }
 
+#time-and-date {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#time-and-date label {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
 #form-slot-3 {
     font-size: 20px;
     padding-bottom: 20px;

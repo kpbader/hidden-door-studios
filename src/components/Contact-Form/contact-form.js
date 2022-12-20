@@ -19,6 +19,12 @@ function ContactForm() {
                 <label htmlFor="email">Email</label>
                 <input type="email" defaultValue={email} name="email" />
             </div>
+            <div id="time-and-date">
+                <label for="appt">Choose your desired date(s) and time</label>
+                <input className="user-input" type="date" name="date" placeholder='Select a date' required />
+                <input type="time" id="appt" name="appt"
+                    min="09:00" max="23:59" required />
+            </div>
             <div id="form-slot-3">
                 <label htmlFor="message">Message</label>
                 <textarea name="message" defaultValue={message} rows="10" cols="45" />

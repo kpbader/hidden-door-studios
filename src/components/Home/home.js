@@ -5,54 +5,52 @@ import soloGuitar from "../../assets/images/solo-guitar.jpg";
 import sBooth from "../../assets/images/sound-booth.jpg";
 import vertPodcast from "../../assets/images/podcast-vert.jpg";
 import pinkSunset from "../../assets/images/pink-sunset.jpg";
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import { Card } from 'react-bootstrap';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// import LazyLoad from 'react-lazy-load';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import React, { useState, useRef } from 'react';
+import React from 'react';
 
 function Home() {
 
-    const form = useRef();
-    const [contactForm, setContactForm] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = contactForm;
-    const [errorMessage, setErrorMessage] = useState('');
+    const scrollToForm = () => {
+        window.scrollTo(0, 525)
+    };
 
     const serviceCards = [
         {
             name: 'Mastering',
             img: sBooth,
-            // link: '/Mastering'
+            
         },
         {
             name: 'Mixing',
             img: equipOne,
-            // link: '/Mixing'
+        
         },
         {
             name: 'Instrumentals',
             img: soloGuitar,
-            // link: '/Instrumentals'
+            
         },
         {
             name: 'Podcasting',
             img: vertPodcast,
-            // link: '/Podcasting'
+            
         },
         {
             name: 'Marketing',
             img: pinkSunset,
-            // link: '/Marketing'
+            
         }
     ];
 
     return (
         <section>
             <div id="splashVideo">
-                <video src={lights} muted loop playsInline autoPlay/>
+                <video src={lights} muted loop playsInline autoPlay />
                 <Fade up>
                     <h1 id="home-splash-text">Lay down some sound</h1>
                 </Fade>
@@ -61,7 +59,6 @@ function Home() {
                 <Fade bottom>
                     <h3>Our Services</h3>
                 </Fade>
-
             </div>
             <div id="services-card-group">
                 <Fade bottom>
@@ -80,6 +77,12 @@ function Home() {
                         })}
                     </Row>
                 </Fade>
+            </div>
+            <div id="cta-section">
+                <h3>Ready to go? Request a booking!</h3>
+                <Link to="/Book" className="tab">
+                    <Button id="nav-book-btn" onClick={scrollToForm}>Book</Button>
+                </Link>
             </div>
         </section>
     );

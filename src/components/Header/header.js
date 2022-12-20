@@ -23,23 +23,6 @@ function Header() {
                 <Nav.Link>
                     <Link to="/hidden-door-studios" className="tab">Home</Link>
                 </Nav.Link>
-                {/* <NavDropdown title="Services" className="tab">
-                    <NavDropdown.Item>
-                        <Link to="/Mastering">Mastering</Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link to="/Mixing">Mixing</Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link to="/Instrumentals">Instrumentals</Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link to="/Podcasting">Podcasting</Link>
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        <Link to="/Marketing">Marketing</Link>
-                    </NavDropdown.Item>
-                </NavDropdown> */}
                 <Nav.Link>
                     <Link to="/About" className="tab">About</Link>
                 </Nav.Link>

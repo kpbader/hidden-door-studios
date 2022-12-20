@@ -5,16 +5,14 @@ import soundboardOne from "../../assets/images/IMG_2903.jpeg";
 import studioOne from "../../assets/images/IMG_2900.jpeg";
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
-import { useState, useRef } from 'react';
 import { FaMicrophoneAlt, FaSlidersH, FaVolumeUp, FaMusic, FaLaptop } from 'react-icons/fa';
 import React from 'react';
 
 function About() {
 
-    const form = useRef();
-    const [contactForm, setContactForm] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = contactForm;
-    const [errorMessage, setErrorMessage] = useState('');
+    const scrollToForm = () => {
+        window.scrollTo(0, 525)
+    };
 
     return (
         <section id="about-page">
@@ -34,7 +32,7 @@ function About() {
                                         We offer hourly and daily sessions starting at $65/hr as well as long-term monthly rentals.
                                     </Card.Text>
                                     <Link to="/Book" className="tab">
-                                        <Button>Book</Button>
+                                        <Button onClick={scrollToForm}>Book</Button>
                                     </Link>
                                 </Card.Body>
                             </Card>
@@ -54,7 +52,7 @@ function About() {
                                 <Card.Text>
                                     Our attentive staff along with our incredible team of recording engineers will ensure a smooth, hassle-free session. Our studio provides both inspiration and a comfortable space for you and your collaborators to create.
                                 </Card.Text>
-                                <Link to="/Book" className="tab">
+                                <Link to="/Book" className="tab" onClick={scrollToForm}>
                                     <Button>Book</Button>
                                 </Link>
                             </Card.Body>

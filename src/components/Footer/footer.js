@@ -13,15 +13,19 @@ function Footer() {
         });
     };
 
+    const scrollToForm = () => {
+        window.scrollTo(0, 525)
+    };
+
     return (
         <section id="footer">
             <img src={hdsFooterLogo} alt="logo" />
             <div id="footer-menu">
-                <Link to="/" onClick={scrollToTop}>Home</Link>
+                <Link to="/hidden-door-studios" onClick={scrollToTop}>Home</Link>
                 <Link to="/About" onClick={scrollToTop}>About</Link>
                 <Link to="/Gallery" onClick={scrollToTop}>Gallery</Link>
                 <Link to="/Contact" onClick={scrollToTop}>Contact</Link>
-                <Link to="/Book" className="tab" onClick={scrollToTop}>
+                <Link to="/Book" className="tab" onClick={scrollToForm}>
                     <Button id="footer-book-btn">Book</Button>
                 </Link>
             </div>
